@@ -1,7 +1,15 @@
 # TDD_Group5_Calidad
 
-Isaaidk/Isaac Said Puga Ayala
-Romelg18/ Romel Israel Gualoto Arevalo
-Paulolivo4/ Paulo Andres Olivo Yanez
-BrandonArellanoU/ Brandon Isaac Arellano Calderon
-Altermanns/ Isaac Ismael Trujillo Velasco 
+## Integrantes del Equipo
+
+A continuación, se detallan los miembros del equipo que participaron en el desarrollo de este proyecto:
+
+| Nombre Completo | 
+| :--- | :--- |
+| **Isaac Ismael Trujillo Velasco** | 
+| **Isaac Said Puga Ayala** | 
+| **Romel Israel Gualoto Arevalo** | 
+| **Paulo Andres Olivo Yanez** | 
+| **Brandon Isaac Arellano Calderon** | 
+
+---
