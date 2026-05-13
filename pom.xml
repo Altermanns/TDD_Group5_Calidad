@@ -4,8 +4,9 @@
 
   <modelVersion>4.0.0</modelVersion>
 
+  <!-- Cambiamos el nombre del artefacto para que coincida con el proyecto actual -->
   <groupId>com.ejemplo</groupId>
-  <artifactId>validador-primos</artifactId>
+  <artifactId>gestor-usuarios-tdd</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>
@@ -15,6 +16,7 @@
   </properties>
 
   <dependencies>
+    <!-- Mantenemos JUnit Jupiter para poder ejecutar las pruebas de GestorUsuariosTest -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
