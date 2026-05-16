@@ -12,6 +12,22 @@ public class GestorUsuarios {
     public String getCorreo(String nombre) {
         return usuarios.get(nombre);
     }
-} 
+
+    //CICLO 2
+
+    public boolean esCorreoValido(String correo) {
+            if (correo == null || correo.trim().isEmpty()) {
+                return false;
+            }
+            return EMAIL_PATTERN.matcher(correo).matches();
+            
+        }
+
+        
+        private static final Pattern EMAIL_PATTERN = Pattern.compile(
+                "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$"
+        );
+    }
+
 
 
