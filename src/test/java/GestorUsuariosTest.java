@@ -29,12 +29,19 @@ class GestorUsuariosTest {
 
     //CICLO3
     @Test
-    void TestActualizarCorreo(){
-
+    void testActualizarCorreo(){
         GestorUsuarios gestor = new GestorUsuarios();
-        gestor.agregarUsuario("Mateo","mateus112@gmail.com");
-        gestor.CambiarCorreo("Mateo", "mateo.zambrano@udla.edu.ec");      
-        String CorreoActual = gestor.getCorreo("Mateo");
-        assertEquals("mateo.zambrano@udla.edu.ec", CorreoActual);
+        gestor.agregarUsuario("Mateo", "mateus112@gmail.com");
+        gestor.actualizarCorreo("Mateo", "mateo.zambrano@udla.edu.ec");
+        assertEquals("mateo.zambrano@udla.edu.ec", gestor.getCorreo("Mateo"));
+    }
+
+    //CICLO 4
+    @Test
+    void testEliminarUsuario() {
+        GestorUsuarios gestor = new GestorUsuarios();
+        gestor.agregarUsuario("Brandon", "brandon@example.com");
+        gestor.eliminarUsuario("Brandon");
+        assertNull(gestor.getCorreo("Brandon"));
     }
 }
