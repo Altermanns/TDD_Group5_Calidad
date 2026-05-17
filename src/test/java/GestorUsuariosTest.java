@@ -26,4 +26,15 @@ class GestorUsuariosTest {
         assertFalse(gestor.esCorreoValido(""));
         assertFalse(gestor.esCorreoValido(null));
     } 
+
+    //CICLO3
+    @Test
+    void TestActualizarCorreo(){
+
+        GestorUsuarios gestor = new GestorUsuarios();
+        gestor.agregarUsuario("Mateo","mateus112@gmail.com");
+        gestor.CambiarCorreo("Mateo", "mateo.zambrano@udla.edu.ec");      
+        String CorreoActual = gestor.getCorreo("Mateo");
+        assertEquals("mateo.zambrano@udla.edu.ec", CorreoActual);
+    }
 }
