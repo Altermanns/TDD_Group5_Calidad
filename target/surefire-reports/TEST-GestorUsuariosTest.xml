@@ -1,57 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GestorUsuariosTest" time="0.11" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GestorUsuariosTest" time="0.083" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/workspaces/TDD_Group5_Calidad/target/test-classes:/workspaces/TDD_Group5_Calidad/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
-    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/workspaces/TDD_Group5_Calidad/target/surefire/surefirebooter-20260517211503628_3.jar /workspaces/TDD_Group5_Calidad/target/surefire 2026-05-17T21-15-03_351-jvmRun1 surefire-20260517211503628_1tmp surefire_0-20260517211503628_2tmp"/>
+    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/17.0.10-ms/lib"/>
+    <property name="sun.java.command" value="/workspaces/TDD_Group5_Calidad/target/surefire/surefirebooter-20260517234640718_3.jar /workspaces/TDD_Group5_Calidad/target/surefire 2026-05-17T23-46-40_566-jvmRun1 surefire-20260517234640718_1tmp surefire_0-20260517234640718_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/TDD_Group5_Calidad/target/test-classes:/workspaces/TDD_Group5_Calidad/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/codespace"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2026-01-20"/>
-    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/usr/local/sdkman/candidates/java/17.0.10-ms"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/workspaces/TDD_Group5_Calidad"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/workspaces/TDD_Group5_Calidad/target/surefire/surefirebooter-20260517211503628_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/TDD_Group5_Calidad/target/surefire/surefirebooter-20260517234640718_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.18+8-Ubuntu-124.04.1"/>
+    <property name="java.runtime.version" value="17.0.10+7-LTS"/>
     <property name="user.name" value="codespace"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="6.8.0-1044-azure"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-8902769"/>
     <property name="localRepository" value="/home/codespace/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="17.0.18"/>
+    <property name="java.version" value="17.0.10"/>
     <property name="user.dir" value="/workspaces/TDD_Group5_Calidad"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Ubuntu"/>
-    <property name="java.vm.version" value="17.0.18+8-Ubuntu-124.04.1"/>
-    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="17.0.10+7-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAgregarUsuario" classname="GestorUsuariosTest" time="0.059"/>
-  <testcase name="testEsCorreoValido" classname="GestorUsuariosTest" time="0.002"/>
-  <testcase name="TestActualizarCorreo" classname="GestorUsuariosTest" time="0.002"/>
+  <testcase name="testAgregarUsuario" classname="GestorUsuariosTest" time="0.026"/>
+  <testcase name="testEliminarUsuario" classname="GestorUsuariosTest" time="0.004"/>
+  <testcase name="testEsCorreoValido" classname="GestorUsuariosTest" time="0.003"/>
+  <testcase name="testAgregarUsuarioSinDuplicados" classname="GestorUsuariosTest" time="0.002"/>
+  <testcase name="testActualizarCorreo" classname="GestorUsuariosTest" time="0.003"/>
 </testsuite>

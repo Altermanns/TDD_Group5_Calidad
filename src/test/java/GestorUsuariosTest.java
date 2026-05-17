@@ -44,4 +44,14 @@ class GestorUsuariosTest {
         gestor.eliminarUsuario("Brandon");
         assertNull(gestor.getCorreo("Brandon"));
     }
+    
+    //CICLO 5
+    @Test
+    void testAgregarUsuarioSinDuplicados() {
+        GestorUsuarios gestor = new GestorUsuarios();
+        gestor.agregarUsuarioSeguro("Mateo", "mateo.zambrano@udla.edu.ec");
+        gestor.agregarUsuarioSeguro("Isaac", "mateo.zambrano@udla.edu.ec");
+        assertNull(gestor.getCorreo("Isaac"));
+    }
+    
 }

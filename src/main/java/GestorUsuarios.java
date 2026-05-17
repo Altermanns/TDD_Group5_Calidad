@@ -37,4 +37,11 @@ public class GestorUsuarios {
     public void eliminarUsuario(String nombre) {
         usuarios.remove(nombre);
     }
+
+    //CICLO 5: 
+    public void agregarUsuarioSeguro(String nombre, String correo) {
+        if (esCorreoValido(correo) && !usuarios.containsValue(correo)) {
+            usuarios.put(nombre, correo);
+        }
+    }
 }
